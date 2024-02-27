@@ -42,7 +42,7 @@ public class SendEmailEventConsumer {
 
         Authenticator authenticator = new Authenticator(){
             protected PasswordAuthentication getPasswordAuthentication(){
-                return new PasswordAuthentication("moosa.tp2@gmail.com","fefqhlfltepozqvq");
+                return new PasswordAuthentication("$GMAIL_USER","${GMAIL_PASS}");
             }
         };
 
